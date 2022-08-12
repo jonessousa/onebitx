@@ -1,0 +1,31 @@
+@media(max-width:610px) {
+    .container{
+        width: auto;
+        margin: 15px;
+    }
+    .btn{
+      width: auto;
+    }
+}
+
+@media(max-width:540px) {
+    .container{
+        height: auto;
+    }
+    .footer{
+        font-size: 14px;
+        width: 100vw;
+    }
+}
+
+@media(max-width:420px) {
+    .col-12{
+        width: 95vw;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .btn{
+        width: 27vw;
+    }
+}
